@@ -3,12 +3,12 @@
   "title": "LG Manual Scraper (Installation Manual, PT-BR)",
   "description": "Coleta manuais técnicos do tipo Installation Manual em português do Brasil no site LG Business.",
   "type": "actor",
-  "input": {},
-  "env": {
-    "APIFY_DEFAULT_TIMEOUT": "360000"
-  },
+  "dockerfile": "apify/actor-node-playwright:latest",
   "build": {
     "buildCommand": "npm install"
+  },
+  "env": {
+    "APIFY_DEFAULT_TIMEOUT": "360000"
   },
   "sourceType": "SOURCE_FILES",
   "actorSpecification": 1
