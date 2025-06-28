@@ -1,9 +1,10 @@
-FROM apify/actor-node-playwright:latest
+FROM apify/actor-node-playwright-chrome
 
-# Copia tudo para dentro do container
+# Copia todos os arquivos do projeto
 COPY . ./
 
-# Instala dependências e baixa os navegadores
-RUN npm install && npx playwright install --with-deps
+# Instala apenas as dependências do seu código
+RUN npm install
 
+# Entrypoint
 CMD ["npm", "start"]
