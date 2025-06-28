@@ -5,7 +5,7 @@
   "type": "actor",
   "dockerfile": "apify/actor-node-playwright:latest",
   "build": {
-    "buildCommand": "npm install"
+    "buildCommand": "npm install && npx playwright install --with-deps"
   },
   "env": {
     "APIFY_DEFAULT_TIMEOUT": "360000"
