@@ -1,0 +1,13 @@
+{
+  "name": "lg-manual-scraper",
+  "version": "1.0.0",
+  "description": "Scraper de manuais técnicos da LG no Apify",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "crawlee": "^3.6.0",
+    "got-scraping": "^8.0.2"
+  },
+  "type": "module"
+}
