@@ -6,6 +6,7 @@
     "start": "node main.js"
   },
   "dependencies": {
+    "apify": "^3.4.2",
     "crawlee": "^3.6.0",
     "got-scraping": "^4.1.1",
     "playwright": "^1.44.0"
