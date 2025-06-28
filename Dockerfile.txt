@@ -1,0 +1,10 @@
+FROM apify/actor-node-playwright:latest
+
+# Copia arquivos para o container
+COPY . ./
+
+# Instala dependências e navegadores do Playwright
+RUN npm install && npx playwright install --with-deps
+
+# Entrypoint padrão
+CMD ["npm", "start"]

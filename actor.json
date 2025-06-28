@@ -3,9 +3,9 @@
   "title": "LG Manual Scraper (Installation Manual, PT-BR)",
   "description": "Coleta manuais técnicos do tipo Installation Manual em português do Brasil no site LG Business.",
   "type": "actor",
-  "dockerfile": "apify/actor-node-playwright:latest",
+  "dockerfile": "./Dockerfile",
   "build": {
-    "buildCommand": "npm install && npx playwright install --with-deps"
+    "buildCommand": null
   },
   "env": {
     "APIFY_DEFAULT_TIMEOUT": "360000"
