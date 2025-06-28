@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "crawlee": "^3.6.0",
-    "got-scraping": "^4.1.1"
+    "got-scraping": "^4.1.1",
+    "playwright": "^1.44.0"
   },
   "type": "module"
 }
-
