@@ -16,8 +16,8 @@ const crawler = new PlaywrightCrawler({
         await page.selectOption('#country', 'Brasil');
         await page.selectOption('#manualType', 'Installation Manual');
         await page.selectOption('#language', 'Portuguese');
-        await page.fill('#startDate', '2024-06-01');
-        await page.fill('#endDate', '2025-06-01');
+        await page.fill('#registrationStartDate', '2024-06-01');
+        await page.fill('#registrationEndDate', '2025-06-01');
 
         // Submeter busca
         await Promise.all([
