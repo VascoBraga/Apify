@@ -7,9 +7,6 @@
   "build": {
     "buildCommand": null
   },
-  "env": {
-    "APIFY_DEFAULT_TIMEOUT": "360000"
-  },
   "sourceType": "SOURCE_FILES",
   "actorSpecification": 1
 }
